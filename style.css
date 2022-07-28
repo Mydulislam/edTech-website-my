@@ -27,3 +27,8 @@
     border-radius: 50%;
     line-height: 2.2;
 }
+@media screen and (max-width: 576px){
+    .my-display{
+        display: none;
+    }
+}
