@@ -12,12 +12,21 @@
 .slider-heading{
     font-size: 65px;
 }
-.my-bg{
-    background-image: url(images/cover/cover-3.jpg);
+.bg-common{
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.5);
+    background-position: center center;
     background-blend-mode: overlay;
+}
+.my{
+    background-image: url(images/cover/cover-3.jpg);
+}
+.your{
+    background-image: url(images/cover/grouping.jpg);
+}
+.his{
+    background-image: url(images/cover/civil.jpg);
 }
 .social-list{
     list-style: none;
@@ -28,7 +37,10 @@
     line-height: 2.2;
 }
 @media screen and (max-width: 576px){
-    .my-display{
+    .my-display, .my-btn{
         display: none;
+    }
+    .slider-heading{
+        font-size: 32px;
     }
 }
