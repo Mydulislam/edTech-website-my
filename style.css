@@ -6,9 +6,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-.slider-heading{
-    font-size: 65px;
-}
+.slider-heading{font-size: 65px;}
 .bg-common{
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,15 +32,10 @@
     line-height: 2.2;
 }
 @media screen and (max-width: 576px){
-    .my-display, .my-btn{
-        display: none;
-    }
-    .slider-heading{
-        font-size: 32px;
-    }
+    .my-display, .my-btn{display: none;}
+    .slider-heading{font-size: 32px;}
+    .my-flex-column{flex-direction: column;}
 }
 @media screen and (max-width: 768px){
-    .slider-heading{
-        font-size: 43px;
-    }
+    .slider-heading{font-size: 43px;}
 }
