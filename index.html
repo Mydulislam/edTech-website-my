@@ -180,29 +180,29 @@
 
     <!-- ****************************** Working Area *********************************** -->
         <section class="my-5">
-            <div class="row">
-                <div class="col">
-                    <div class="h-100 d-flex flex-sm-column flex-md-row justify-content-between align-items-center border border-1 rounded">
-                        <img src="images/working.png" class="h-100 card-img-top img-fluid pe-3" alt="shoe">
-                        <div class="card-body ps-lg-4 p-sm-4">
-                            <h1 class="card-title fw-semibold">Explore The elearning Institute</h1>
-                            <p class="card-text mt-2 mb-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are goingto use a passage of Lorem Ipsum, you need to be sure.<br> <br> Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined.</p>
-                            <div class="d-flex flex-sm-wrap justify-content-between align-items-center fs-6 mb-4">
-                                <div class="pt-sm-4">
-                                    <h1>3.2K+</h1>
-                                    <b class="text-black-50">Online Course</b>
-                                </div>
-                                <div class="pt-sm-4">
-                                    <h1>600+</h1>
-                                    <b class="text-black-50">Expert member</b>
-                                </div>
-                                <div class="pt-sm-4">
-                                    <h1>1k+</h1>
-                                    <b class="text-black-50">Rating & Review</b>
-                                </div>
+            <div class="d-flex flex-sm-column flex-md-row border border-1 bg-light">
+                <div class="col-sm-12 col-md-5">
+                    <img src="images/working.png" class="h-100 card-img-top img-fluid pe-sm-0 pe-md-3" alt="shoe">
+                </div>
+                <div class="col-sm-12 col-md-7">
+                    <div class="card-body ps-lg-4 p-sm-4">
+                        <h1 class="card-title fw-semibold">Explore The elearning Institute</h1>
+                        <p class="card-text mt-2 mb-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are goingto use a passage of Lorem Ipsum, you need to be sure.<br> <br> Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined.</p>
+                        <div class="d-flex flex-sm-wrap justify-content-between align-items-center fs-6 mb-4">
+                            <div class="pt-sm-4">
+                                <h1>3.2K+</h1>
+                                <b class="text-black-50">Online Course</b>
                             </div>
-                            <a href="" class=" px-4 py-2 fw-bold text-white btn btn-info">Read More</a>
+                            <div class="pt-sm-4">
+                                <h1>600+</h1>
+                                <b class="text-black-50">Expert member</b>
+                            </div>
+                            <div class="pt-sm-4">
+                                <h1>1k+</h1>
+                                <b class="text-black-50">Rating & Review</b>
+                            </div>
                         </div>
+                        <a href="" class=" px-4 py-2 fw-bold text-white btn btn-info">Read More</a>
                     </div>
                 </div>
             </div>
@@ -217,7 +217,40 @@
                         <p class="pt-2">It is a long established fact that a reader will be distracted by the <br> readable content of a page when looking at its layout.</p>
                     </div>
                     <div class="p-lg-5">
-                        <a href="#" class="btn btn-light text-info fw-bold">Register Now</a>
+                        <a href="#" class="btn bg-white text-info fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">Register Now</a>
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Please Fill Up</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body text-start">
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label text-sm-start text-md-start">Email address</label>
+                                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Email Address">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label text-sm-start text-md-start">Passoword</label>
+                                            <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="Passoword">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label text-sm-start text-md-start">Select Course</label>
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option value="1">Graphic Design</option>
+                                                <option value="2">Motion Design</option>
+                                                <option value="3">Web Development</option>
+                                            </select>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
                     </div>
                 </div>
             </div>
